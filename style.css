@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	font-family: Arial, sans-serif;
+	font-size: large;
 	background-color: #a09d67;
 	color: #e7e6d5;
 }
@@ -8,9 +9,13 @@ body {
 .container {
 	max-width: 900px;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 40px;
 	text-align: center;
 	background-color: #b0b375;
+}
+section {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 header {
@@ -61,4 +66,21 @@ section ul {
 	gap: 20px;
 	list-style: none;
 	padding: 0;
+}
+
+a {
+	color: #e7e6d5;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #d63f04;
+	text-decoration: underline;
+}
+
+a:visited {
+}
+
+a:active {
+	color: #b24317;
 }

@@ -7,25 +7,35 @@ body {
 }
 
 .container {
-	max-width: 900px;
+	max-width: 1100px;
 	margin: 0 auto;
-	padding: 40px;
+	padding: 0px;
 	text-align: center;
 	background-color: #b0b375;
 }
+
+.wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
 section {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
+main img {
+	width: 100%;
+}
 header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 20px;
 }
 
 h1 {
-	color: #b24317;
+	color: #d63f04;
 }
 
 h2 {
@@ -57,7 +67,7 @@ footer {
 	color: #b24317;
 	height: 50px;
 	line-height: 50px;
-	background-color: antiquewhite;
+	background-color: rgba(194, 145, 77, 0.412);
 }
 
 section ul {

@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-	max-width: 800px;
+	max-width: 900px;
 	margin: 0 auto;
 	padding: 20px;
 	text-align: center;
@@ -19,8 +19,12 @@ header {
 	align-items: center;
 }
 
-header h1 {
+h1 {
 	color: #b24317;
+}
+
+h2 {
+	color: #d63f04;
 }
 
 nav ul {
@@ -45,12 +49,13 @@ nav ul {
 }
 
 footer {
-	text-align: center;
+	color: #b24317;
 	height: 50px;
+	line-height: 50px;
 	background-color: antiquewhite;
 }
 
-footer ul {
+section ul {
 	display: flex;
 	justify-content: center;
 	gap: 20px;
